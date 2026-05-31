@@ -1,0 +1,24 @@
+# Compiled executable & build artifacts
+schedule.exe
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Backups (generated at runtime, no need to track)
+backups/
+
+# Log file (runtime output)
+scheduler_log.txt
+
+# Excel temp files
+~$*.xlsm
+~$*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db

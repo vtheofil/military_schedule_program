@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/theob/Desktop/schedule_project\" && pyinstaller schedule.spec --noconfirm 2>&1 | tail -3 && cp dist/schedule.exe schedule.exe && echo \"OK\")"
+    ]
+  }
+}
